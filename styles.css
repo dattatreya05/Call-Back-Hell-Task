@@ -1,0 +1,21 @@
+/** @format */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, red, blue, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3rem;
+    color: transparent;
+    z-index: 2;
+  }
