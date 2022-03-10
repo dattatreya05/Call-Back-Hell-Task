@@ -1,12 +1,14 @@
 /** @format */
 
+/* This changes will happens to the entire scrren or page */
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  
+
+/* What changes we are giving to the css selectors */
   h1 {
     display: flex;
     align-items: center;
