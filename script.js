@@ -1,6 +1,8 @@
+// It is with the some variable we are targetting the html element
 let display = document.querySelector("h1");
 
-
+// we are creating the setTimeout function for 10 times after the time is over it will shows the "happy independence day" in the screen
+// at the same time we are calling the confetti.js file with some background changes and we are calling with setInterval function after 2000mili seconds
 setTimeout(() => {
     display.innerText = 10;
     setTimeout(() => {
